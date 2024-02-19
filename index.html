@@ -7,8 +7,43 @@
 </head>
 <body>
     <div class="container">
-        <header class="header-container"></header>
-        <nav class="sidebar-container"></nav>
+        <header class="header-container">
+            <div class="top-header-area">
+                <div class="search-container">
+                   <form>
+                    <input type="image" src="./images/magnifying-glass.svg" class="search-zone" id="search-button" for="search-field" alt="Search button">
+                    <input type="search" class="search-zone" id="search-field">
+                   </form>
+                </div>
+                <div class="profile-container">
+                    <img src="./images/bell-ring-outline.svg" alt="Notification bell" class="profile-info">
+                    <img src="./images/one-punch-man.png" alt="Profile picture" class="profile-info">
+                    <p id="profile-name" class="profile-info">Weeb McWeebFace</p>
+                </div>
+            </div>
+            <div class="bottom-header-area">
+                <div class="greeting-container">
+                    <img src="./images/one-punch-man.png" alt="Profile picture">
+                    <div class="greeting-words-container">
+                        <p>Hi there,</p>
+                        <p class="greet-bold">Weeb McWeebFace (@TheWeebinator)</p>
+                    </div>
+                </div>
+                <div class="action-container">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+        </header>
+        <nav class="sidebar-container">
+            <div class="dashboard-title-area">
+                <img src="./images/view-dashboard.svg" alt="Dashboard title icon">
+                <p id="dashboard-title">Dashboard</p>
+            </div>
+            <div class="exploration-area"></div>
+            <div class="settings-area"></div>
+        </nav>
         <main class="main-content-container"></main>
     </div>
 </body>
