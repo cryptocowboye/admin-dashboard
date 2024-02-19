@@ -1,1 +1,3 @@
-# admin-dashboard
+Before the project:
+
+Realistically, this project will test my HTML and CSS skills up to this point. There may or may not be a sprinkling of flexbox here and there, but for the majority of this project, I plan on using grid to help with positioning and rearranging of this project. I hope the task is not such a tall ask, but we'll see how it goes! I'm going to try--with the best of my ability--to mimic the admin dashboard refrence image in the odin projects intermediate html and css course!
