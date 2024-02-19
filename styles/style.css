@@ -12,10 +12,59 @@ img, input[type="image"] {
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: auto 1fr;
+    height: 100vh;
 }
 
 header.header-container {
     padding: 15px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.top-header-area {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.search-container {
+    display: grid;
+    justify-items: start;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+    width: 100%;
+}
+
+input#search-field {
+    height: 25px;
+}
+
+input#search-button {
+    margin: 0 auto;
+}
+
+.profile-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+img#notification-bell {
+    margin: 0 0 0 auto;
+}
+
+p#profile-name {
+    margin: 0 auto 0 0;
+}
+
+img#profile-picture {
+    width: 100px;
+    border-radius: 100px;
 }
 
 nav.sidebar-container {
