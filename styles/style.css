@@ -229,8 +229,9 @@ main.main-content-container {
     display: grid;
     grid-template-rows: auto 1fr;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-left: 15px solid #e7e751;
 }
 
 .card .card-title {
