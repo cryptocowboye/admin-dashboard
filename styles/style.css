@@ -158,11 +158,55 @@ nav.sidebar-container {
 
 main.main-content-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
     padding: 15px;
+    background-color: #f1f1f1;
+}
+
+.cards-area {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    align-items: start;
+    row-gap: 25px;
+}
+
+.cards-area > h3 {
+    margin: auto 25px;
 }
 
 .cards-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards-box .card {
+    width: 400px;
+    height: 225px;
+    margin: 25px 25px;
+    padding: 20px;
+    border: 1px black solid;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.card .card-title {
+    margin-bottom: 15px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.card .card-paragraph {
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-actions img {
+    margin: auto 10px;
 }
