@@ -163,6 +163,8 @@ main.main-content-container {
     background-color: #f1f1f1;
 }
 
+/* cards styling start*/
+
 .cards-area {
     display: grid;
     grid-template-rows: auto 1fr;
@@ -209,4 +211,39 @@ main.main-content-container {
 
 .card-actions img {
     margin: auto 10px;
+}
+
+/*cards styling end*/
+
+.announcements-trends-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.announcements-container {
+    margin: 0 0 25px 0;
+}
+
+.announcements-container > p {
+    margin-bottom: 25px;
+    font-size: 1.17rem;
+    font-weight: bolder;
+}
+
+.announcement-box {
+    padding: 15px;
+    border: 1px black solid;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+}
+
+.announcement-title {
+    margin-top: 10px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.announcement-message .announcement-paragraph {
+    margin: 10px 0px;
 }
