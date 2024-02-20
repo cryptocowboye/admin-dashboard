@@ -111,6 +111,49 @@ nav.sidebar-container {
     grid-row: 1 / -1;
     background-color: turquoise;
     padding: 15px;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    align-items: start;
+    gap: 75px;
+}
+
+.dashboard-title-area {
+    display: grid;
+    justify-content: start;
+}
+
+.dashboard-title-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.exploration-area {
+    display: grid;
+    justify-content: start;
+    gap: 15px;
+}
+
+.home-container, .profile-details-container,
+.messages-container, .history-container,
+.tasks-container, .communities-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 15px;
+}
+
+.settings-area {
+    display: grid;
+    justify-content: start;
+    gap: 15px;
+}
+
+.settings-area div {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 15px;
 }
 
 main.main-content-container {
