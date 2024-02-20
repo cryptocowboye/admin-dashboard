@@ -143,12 +143,13 @@ img#profile-picture {
 
 nav.sidebar-container {
     grid-row: 1 / -1;
-    background-color: turquoise;
+    background-color: #1eddca;
     padding: 15px;
     display: grid;
     grid-template-rows: auto auto 1fr;
     align-items: start;
     gap: 75px;
+    font-weight: bolder;
 }
 
 .dashboard-title-area {
@@ -158,8 +159,14 @@ nav.sidebar-container {
 
 .dashboard-title-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto 1fr;
     align-items: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#dashboard-title {
+    margin-left: 5px;
 }
 
 .exploration-area {
@@ -293,4 +300,8 @@ main.main-content-container {
 
 .account img {
     border-radius: 50px;
+}
+
+.account-name {
+    font-weight: bolder;
 }
