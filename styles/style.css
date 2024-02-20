@@ -224,13 +224,15 @@ main.main-content-container {
     margin: 0 0 25px 0;
 }
 
-.announcements-container > p {
+.announcements-container > p,
+.trending-container > p {
     margin-bottom: 25px;
     font-size: 1.17rem;
     font-weight: bolder;
 }
 
-.announcement-box {
+.announcement-box,
+.trending-box {
     padding: 15px;
     border: 1px black solid;
     border-radius: 20px;
@@ -246,4 +248,16 @@ main.main-content-container {
 
 .announcement-message .announcement-paragraph {
     margin: 10px 0px;
+}
+
+.account {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 15px;
+    margin: 10px 0px 10px 5px;
+    align-items: center;
+}
+
+.account img {
+    border-radius: 50px;
 }
